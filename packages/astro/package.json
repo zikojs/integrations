@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/astro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use Zikojs components within Astro",
   "keywords": [
     "astro-integration",
@@ -15,8 +15,8 @@
   "main": "index.js",
   "exports":{
     ".":"./src/index.js",
-    "./client": "./client.js",
-    "./server": "./server.js"
+    "./client": "./src/client.js",
+    "./server": "./src/server.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
