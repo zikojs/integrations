@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/astro",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Use Zikojs components within Astro",
   "keywords": [
     "astro-integration",
@@ -13,8 +13,8 @@
   "author": "zakaria elalaoui",
   "type": "module",
   "main": "index.js",
-  "exports":{
-    ".":"./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
     "./client": "./src/client.js",
     "./server": "./src/server.js"
   },
@@ -25,7 +25,9 @@
     "access": "public"
   },
   "dependencies": {
-    "ziko": "^1.8.0"
+    "@zikojs/server": "^0.1.0",
+    "ziko": "^1.8.0",
+    "ziko-server": "^0.21.0"
   },
   "repository": {
     "type": "git",
