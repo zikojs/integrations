@@ -1,0 +1,35 @@
+{
+  "name": "@zikojs/astro",
+  "version": "0.1.0",
+  "description": "Use Zikojs components within Astro",
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "renderer",
+    "zikojs",
+    "ziko"
+  ],
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "main": "index.js",
+  "exports":{
+    ".":"./src/index.js",
+    "./client": "./client.js",
+    "./server": "./server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ziko": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikojs/integrations.git",
+    "directory": "packages/astro"
+  }
+}
