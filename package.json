@@ -1,6 +1,6 @@
 {
-  "name": "ziko-wrapper",
-  "version": "0.35.0",
+  "name": "@zikojs/wrappers",
+  "version": "0.1.0",
   "description": "integrate zikojs elements within other ui framework like vue react solidjs svelte astro ...",
   "type": "module",
   "scripts": {
@@ -22,9 +22,12 @@
     "./dom/preact": "./wrappers/dom/preact/index.js",
     "./dom/vue": "./wrappers/dom/vue/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakarialaoui10/ziko-wrapper.git"
+    "url": "git+https://github.com/zikojs/wrappers.git"
   },
   "keywords": [
     "ziko",
@@ -54,7 +57,7 @@
   "homepage": "https://github.com/zakarialaoui10/ziko-wrapper#readme",
   "dependencies": {
     "extendom": "^0.0.0",
-    "ziko": "^1.1.0",
-    "ziko-server": "^0.19.2"
+    "ziko": "^1.8.0",
+    "ziko-server": "^0.21.0"
   }
 }
