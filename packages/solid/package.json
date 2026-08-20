@@ -1,0 +1,33 @@
+{
+  "name": "@zikojs/solid",
+  "version": "0.0.0",
+  "description": "Use Zikojs components within Solidjs",
+  "keywords": [
+    "zikojs",
+    "ziko",
+    "solidjs"
+  ],
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports":{
+    "." : {
+      "import" : "./src/index.js",
+      "types" : "./src/index.d.ts"
+     }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikojs/integrations.git",
+    "directory": "packages/solid"
+  },
+  "dependencies": {
+    "ziko": "^1.8.0"
+  }
+}
