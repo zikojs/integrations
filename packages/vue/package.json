@@ -1,0 +1,33 @@
+{
+  "name": "@zikojs/vue",
+  "version": "0.0.0",
+  "description": "Integrate ZikoJS and Vuejs components seamlessly in both directions.",
+  "keywords": [
+    "zikojs",
+    "ziko",
+    "vue"
+  ],
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports":{
+    "." : {
+      "import" : "./src/index.js",
+      "types" : "./src/index.d.ts"
+     }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikojs/integrations.git",
+    "directory": "packages/vue"
+  },
+  "dependencies": {
+    "ziko": "^1.8.0"
+  }
+}
