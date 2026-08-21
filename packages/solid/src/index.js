@@ -1,1 +1,2 @@
-export {ZikoWrapper} from "./ziko-wrapper.jsx";
+export * from './wrapper/index.jsx'
+export * from './zikofy/index.js'
