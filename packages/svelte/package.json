@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/svelte",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Integrate ZikoJS and Svelte components seamlessly in both directions.",
   "keywords": [
     "zikojs",
