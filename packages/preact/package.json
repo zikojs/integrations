@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/preact",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Use Zikojs components within Preact",
   "keywords": [
     "zikojs",

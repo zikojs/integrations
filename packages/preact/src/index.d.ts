@@ -1,7 +1,2 @@
-import { ComponentChildren } from "preact";
-
-interface WrapperProps {
-    children?: ComponentChildren; 
-}
-
-export function ZikoWrapper({ children }: WrapperProps): JSX.Element;
+export type * from './wrapper/index.d.ts'
+export type * from './zikofy/index.d.ts'
