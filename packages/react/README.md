@@ -1,7 +1,7 @@
-## @zikojs/solid
+## @zikojs/react
 
 ## Install
 
 ```bash
-npm i @zikojs/solid
+npm i @zikojs/react
 ```
