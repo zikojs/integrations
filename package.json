@@ -1,63 +1,25 @@
 {
-  "name": "@zikojs/wrappers",
-  "version": "0.1.0",
-  "description": "integrate zikojs elements within other ui framework like vue react solidjs svelte astro ...",
-  "type": "module",
+  "name": "integrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "exports": {
-    "./react": "./wrappers/react/index.js",
-    "./solid": "./wrappers/solid/index.js",
-    "./svelte": "./wrappers/svelte/index.js",
-    "./preact": "./wrappers/preact/index.js",
-    "./vue": "./wrappers/vue/index.js",
-    "./astro": "./wrappers/astro/index.js",
-    "./van": "./wrappers/van/index.js",
-    "./astro/client": "./wrappers/astro/client.js",
-    "./astro/server": "./wrappers/astro/server.js",
-    "./dom/react": "./wrappers/dom/react/index.js",
-    "./dom/solid": "./wrappers/dom/solid/index.js",
-    "./dom/svelte": "./wrappers/dom/svelte/index.js",
-    "./dom/preact": "./wrappers/dom/preact/index.js",
-    "./dom/vue": "./wrappers/dom/vue/index.js"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zikojs/wrappers.git"
-  },
-  "keywords": [
-    "ziko",
-    "react",
-    "vue",
-    "angular",
-    "svelte",
-    "lit",
-    "solid",
-    "preact",
-    "next",
-    "nuxt",
-    "svelteKit",
-    "astro",
-    "astro-component",
-    "withastro",
-    "front-end",
-    "framework",
-    "mobile",
-    "renderer"
-  ],
-  "author": "zakaria elalaoui",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zakarialaoui10/ziko-wrapper/issues"
-  },
-  "homepage": "https://github.com/zakarialaoui10/ziko-wrapper#readme",
+  "packageManager": "pnpm@11.24.0",
+  "type": "module",
   "dependencies": {
-    "extendom": "^0.0.0",
-    "ziko": "^1.8.0",
-    "ziko-server": "^0.21.0"
+    "@zikojs/server": "0.6.1",
+    "ziko": "2.0.0-beta.9"
   }
 }

@@ -1,0 +1,14 @@
+packages:
+  - "packages/*"
+  - "demo/*"
+  
+catalog:
+  vite: "^8.2.2"
+  ziko: "^2.0.0-beta.9"
+  "@zikojs/serfer": "^@0.6.1"
+
+minimumReleaseAgeExclude:
+  - ziko@2.0.0-beta.9
+  - '@zikojs/express@0.1.1'
+  - '@zikojs/http@0.1.1'
+  - '@zikojs/server@0.6.1'
