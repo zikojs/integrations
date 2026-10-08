@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/preact",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Use Zikojs components within Preact",
   "keywords": [
     "zikojs",
@@ -28,7 +28,7 @@
     "directory": "packages/preact"
   },
   "dependencies": {
-    "ziko": "catalog"
+    "ziko": "catalog:"
   },
   "peerDependencies": {
     "preact": "^10.29.8"

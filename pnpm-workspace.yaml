@@ -4,7 +4,7 @@ packages:
   
 catalog:
   vite: "^8.2.2"
-  ziko: "^2.0.0-beta.9"
+  ziko: latest
   "@zikojs/server": "^0.6.1"
 
 # minimumReleaseAgeExclude:

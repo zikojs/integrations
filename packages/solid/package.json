@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/solid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use Zikojs components within Solidjs",
   "keywords": [
     "zikojs",
@@ -28,6 +28,6 @@
     "directory": "packages/solid"
   },
   "dependencies": {
-    "ziko": "catalog"
+    "ziko": "catalog:"
   }
 }

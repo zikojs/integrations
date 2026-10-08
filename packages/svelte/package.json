@@ -1,6 +1,6 @@
 {
   "name": "@zikojs/svelte",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Integrate ZikoJS and Svelte components seamlessly in both directions.",
   "keywords": [
     "zikojs",
@@ -28,6 +28,6 @@
     "directory": "packages/svelte"
   },
   "dependencies": {
-    "ziko": "catalog"
+    "ziko": "catalog:"
   }
 }
