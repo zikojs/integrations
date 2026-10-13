@@ -1,10 +1,10 @@
 packages:
   - "packages/*"
-  - "demo/*"
-  
+  - "demos/svelte"
+
 catalog:
   vite: "^8.2.2"
-  ziko: latest
+  ziko: 2.0.0-beta.17.1
   "@zikojs/server": "^0.6.1"
 
 # minimumReleaseAgeExclude:

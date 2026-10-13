@@ -1,16 +1,10 @@
-<script >
-  import { tags } from "ziko"
+<script>
+  import { tags } from "ziko/dom";
   const { h1 } = tags;
-  import { ZikoWrapper } from "ziko-wrapper/svelte"
-  const Heading = ({msg}) => h1(msg)
+  import { ZikoWrapper } from "@zikojs/svelte";
+  
+  const Heading = ({msg}) => h1(msg);
 </script>
 
-<ZikoWrapper ui={[
-  Heading({msg : "Hello from zikojs"}),
-  Heading({msg : "Bye "})
-  ]} 
-/>
-
-<ZikoWrapper ui={Heading({msg : "Other"})}/>
-
-
+<!-- Prop Syntax (Still fully supported) -->
+<ZikoWrapper items={Heading({msg: "Other ..."})} />
